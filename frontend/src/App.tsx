@@ -52,6 +52,7 @@ export default function App() {
     }
   }, []);
 
+  // Hello world!~
   const reset = useCallback(() => {
     setChoices([]);
     setRewardFact(null);
